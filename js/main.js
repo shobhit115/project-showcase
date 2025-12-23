@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
         scene.add(currentMesh);
         currentSceneType = 'matrix';
     }
-
+    
     // --- SCENE 3: ORBS (Floating Shapes) ---
     function loadOrbs() {
         clearScene();
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const geometry = new THREE.IcosahedronGeometry(2, 0);
         const material = new THREE.MeshBasicMaterial({ color: 0x38bdf8, wireframe: true });
 
-        for (let i = 0; i < 20; i++) {
+        for (let i = 0; i < 30; i++) {
             const mesh = new THREE.Mesh(geometry, material);
             mesh.position.x = (Math.random() - 0.5) * 100;
             mesh.position.y = (Math.random() - 0.5) * 60;
