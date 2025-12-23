@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shobhit | Visual Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="cursor-ball"></div>
+
+    <div id="canvas-container"></div>
+
+    <div class="scene-controls">
+        <span class="scene-label">VISUAL ENGINE</span>
+        <div class="scene-buttons">
+            <button class="scene-btn active" data-scene="nebula" title="Neural Nebula">
+                <i class="ph ph-sparkle"></i>
+            </button>
+            <button class="scene-btn" data-scene="matrix" title="Cyber Matrix">
+                <i class="ph ph-grid-four"></i>
+            </button>
+            <button class="scene-btn" data-scene="orbs" title="Floating Orbs">
+                <i class="ph ph-circles-three"></i>
+            </button>
+        </div>
+    </div>
+
+    <header class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="brand-area">
+                    <span class="brand-name">SHOBHIT</span>
+                    <span class="divider">/</span>
+                    <span class="section-label">PROJECTS</span>
+                </div>
+
+                <div class="slide-info-wrapper">
+                    <div class="project-badge">Featured Work</div>
+                    <h1 id="heroTitle" class="hero-title">Loading...</h1>
+                    <p id="heroDesc" class="hero-desc">Building digital reality.</p>
+                    
+                    <div class="hero-actions">
+                        <a id="heroLink" href="#" target="_blank" class="btn btn-white">View Project</a>
+                        <div class="slide-controls">
+                            <button id="prevSlide" class="control-btn"><i class="ph ph-caret-left"></i></button>
+                            <div id="slideDots" class="dots-wrapper"></div>
+                            <button id="nextSlide" class="control-btn"><i class="ph ph-caret-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-frame">
+                    <div id="heroImageContainer" class="slider-track">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="controls-bar">
+        <div class="container controls-inner">
+            <div class="search-box">
+                <i class="ph ph-magnifying-glass"></i>
+                <input type="text" id="searchInput" placeholder="Search work...">
+            </div>
+            <div class="filters">
+                <select id="categoryFilter"><option value="all">All Categories</option></select>
+                <select id="yearFilter"><option value="all">All Years</option></select>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <div id="projectsGrid" class="projects-grid">
+            </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 Shobhit. Designed in the Void.</p>
+            <a href="https://shobhit115.vercel.app" target="_blank" class="footer-link">Main Portfolio <i class="ph ph-arrow-up-right"></i></a>
+        </div>
+    </footer>
+
+    <div id="projectModal" class="modal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-panel">
+            <button class="close-modal-btn"><i class="ph ph-x"></i></button>
+            <div class="modal-scroll">
+                <div class="modal-header-img">
+                    <img id="modalImage" src="" alt="">
+                </div>
+                <div class="modal-body">
+                    <div class="modal-tags">
+                        <span id="modalCategory" class="tag"></span>
+                        <span id="modalYear" class="year"></span>
+                    </div>
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDescription"></p>
+                    <div id="modalTech" class="tech-stack"></div>
+                    <div class="modal-footer">
+                        <a id="modalGithub" href="#" target="_blank" class="btn btn-outline">Code</a>
+                        <a id="modalDemo" href="#" target="_blank" class="btn btn-white">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
