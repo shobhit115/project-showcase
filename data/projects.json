@@ -4,7 +4,12 @@
     "category": "Web",
     "description": "My personal developer portfolio.",
     "longDescription": "Responsive portfolio built with Next.js and Tailwind CSS. Includes animated project sections, dark mode, and category filtering — designed to showcase all my major work and achievements.",
-    "tech": ["React.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    "tech": [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion"
+    ],
     "github": "https://github.com/shobhit115/portfolio",
     "demo": "https://shobhit115.vercel.app",
     "image": "assets/images/portfolio.png",
@@ -16,7 +21,12 @@
     "category": "Web",
     "description": "Official website for TechThrive 2.0 college hackathon.",
     "longDescription": "A responsive and modern hackathon website built to promote TechThrive 2.0 at Quantum University. It includes event details, problem statements, timeline, registration flow, and sponsor sections.",
-    "tech": ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
     "github": "https://github.com/qucodex/TechThrive-2",
     "demo": "https://qucodex.github.io/TechThrive-2/",
     "image": "assets/images/techthrive.png",
@@ -24,23 +34,48 @@
     "isFeatured": true
   },
   {
-  "title": "OpenLearny",
-  "category": "Web",
-  "description": "An open learning platform for technology, science, and mathematics.",
-  "longDescription": "OpenLearny is an open learning platform designed to make technology, science, and mathematics understandable through structured, step-by-step exploration. The platform is built progressively, with content added as concepts are learned, tested, and refined. It focuses on clarity, fundamentals, and continuous improvement, serving as a long-term learning hub.",
-  "tech": ["HTML", "CSS", "JavaScript"],
-  "github": "https://github.com/openlearny/home",
-  "demo": "https://openlearny.publicvm.com/",
-  "image": "assets/images/openlearny.png",
-  "year": 2025,
-  "isFeatured": true
-},
+    "title": "OpenLearny",
+    "category": "Web",
+    "description": "An open learning platform for technology, science, and mathematics.",
+    "longDescription": "OpenLearny is an open learning platform designed to make technology, science, and mathematics understandable through structured, step-by-step exploration. The platform is built progressively, with content added as concepts are learned, tested, and refined. It focuses on clarity, fundamentals, and continuous improvement, serving as a long-term learning hub.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "github": "https://github.com/openlearny/home",
+    "demo": "https://openlearny.publicvm.com/",
+    "image": "assets/images/openlearny.png",
+    "year": 2025,
+    "isFeatured": true
+  },
+  {
+    "title": "Project Showcase",
+    "category": "Web",
+    "description": "A frontend project showcase website with interactive Three.js backgrounds.",
+    "longDescription": "An interactive project showcase website built using HTML, CSS, and JavaScript to present all my frontend projects in one place. The site features a dynamic Three.js canvas background with three distinct scenes: a particle nebula, a wave-based animation, and a crystal cube effect. These scenes enhance visual engagement while maintaining performance and usability, demonstrating creative frontend development and real-time 3D interaction.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Three.js"
+    ],
+    "github": "https://github.com/shobhit115/project-showcase",
+    "demo": "https://shobhit.work.gd",
+    "image": "assets/images/projectshowcase.png",
+    "year": 2025,
+    "isFeatured": true
+  },
   {
     "title": "Club Hackathon Landing Page",
     "category": "Web",
     "description": "A sleek landing page for a club hackathon event.",
     "longDescription": "Built using Vite and Spline 3D, this project delivers a fast, responsive, and visually engaging landing page. It featured interactive 3D visuals, smooth animations, and clear event information.",
-    "tech": ["Vite", "Tailwind CSS", "Spline 3D"],
+    "tech": [
+      "Vite",
+      "Tailwind CSS",
+      "Spline 3D"
+    ],
     "github": "https://github.com/shobhit115/Landing-page",
     "demo": "https://landing-page-vert-six-14.vercel.app/",
     "image": "assets/images/landing.png",
@@ -52,7 +87,12 @@
     "category": "AI / ML",
     "description": "AI-powered legal assistant for Indian law queries.",
     "longDescription": "VakeelAI is an intelligent legal assistant that answers queries related to Indian laws. It combines Gemini AI, FAISS-based embeddings, and the Tavily API to analyze legal documents and generate context-aware responses.",
-    "tech": ["Python", "Streamlit", "FAISS", "Gemini API"],
+    "tech": [
+      "Python",
+      "Streamlit",
+      "FAISS",
+      "Gemini API"
+    ],
     "github": "",
     "demo": "",
     "image": "assets/images/vakeelai.png",
@@ -64,7 +104,11 @@
     "category": "Open Source",
     "description": "Experimental web project showcasing quirky UI/UX.",
     "longDescription": "CrazyUX is a project built to show that websites do not always need to be serious. This open-source collection brings together creative web pages filled with unusual interactions and humorous twists.",
-    "tech": ["HTML", "CSS", "JavaScript"],
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
     "github": "https://github.com/shobhit115/CrazyUX",
     "demo": "https://shobhit115.github.io/CrazyUX/",
     "image": "assets/images/crazyux.png",
@@ -76,7 +120,12 @@
     "category": "AI / ML",
     "description": "Predicts age and gender from images.",
     "longDescription": "A deep learning app that predicts a person's age and gender using TensorFlow and OpenCV. It supports both image uploads and live webcam input, with a clean Streamlit interface.",
-    "tech": ["Python", "TensorFlow", "OpenCV", "Streamlit"],
+    "tech": [
+      "Python",
+      "TensorFlow",
+      "OpenCV",
+      "Streamlit"
+    ],
     "github": "https://howold.streamlit.app/",
     "demo": "https://howoldai.streamlit.app",
     "image": "assets/images/howold.png",
@@ -88,7 +137,11 @@
     "category": "Web",
     "description": "Instant QR code generator for text or URLs.",
     "longDescription": "A lightweight tool that generates and downloads QR codes instantly. Built with simple UI and minimal dependencies for fast performance.",
-    "tech": ["Python", "HTML", "CSS"],
+    "tech": [
+      "Python",
+      "HTML",
+      "CSS"
+    ],
     "github": "https://github.com/shobhit115/QR-Code-Generator",
     "demo": "https://qrcode-maker.streamlit.app/",
     "image": "assets/images/qr.png",
@@ -100,7 +153,11 @@
     "category": "AI / ML",
     "description": "Interactive image classification web app.",
     "longDescription": "ClassifyX lets users upload or capture images for instant predictions using a PyTorch-based CNN. The Streamlit interface offers real-time feedback.",
-    "tech": ["Python", "PyTorch", "Streamlit"],
+    "tech": [
+      "Python",
+      "PyTorch",
+      "Streamlit"
+    ],
     "github": "https://github.com/shobhit115/ClassifyX",
     "demo": "https://classify-x.streamlit.app/",
     "image": "assets/images/classifyx.png",
@@ -112,7 +169,12 @@
     "category": "AI / ML",
     "description": "Computer vision-based workout rep counter.",
     "longDescription": "A fitness-focused ML project that detects and counts workout repetitions using pose estimation. Built using OpenCV and Mediapipe for real-time joint tracking.",
-    "tech": ["Python", "OpenCV", "Mediapipe", "NumPy"],
+    "tech": [
+      "Python",
+      "OpenCV",
+      "Mediapipe",
+      "NumPy"
+    ],
     "github": "https://github.com/shobhit115/Reps-Counting-ML-Project",
     "demo": "",
     "image": "assets/images/reps.png",
@@ -124,7 +186,11 @@
     "category": "Web",
     "description": "Responsive travel-themed website.",
     "longDescription": "Developed using HTML, CSS, and JavaScript, this project was a fully responsive travel website created for a college hackathon featuring destination showcases and galleries.",
-    "tech": ["HTML", "CSS", "JavaScript"],
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
     "github": "https://github.com/shobhit115/Travel_website",
     "demo": "https://infiniycoderspsrs.netlify.app/home",
     "image": "assets/images/travel.png",
